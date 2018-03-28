@@ -11,7 +11,8 @@ tb1=read.csv("C:/R/eddypro.csv",
 tb1
 
 #Удаляем первую строчку
-tb1 = tb1[-1,] tb1
+tb1 = tb1[-1,] 
+tb1
 
 #Смотрим информацию по столбцам
 glimpse(tb1)
